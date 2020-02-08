@@ -61,7 +61,11 @@ a:hover {
     box-sizing: border-box;
 }
 body {
-  background:#63b47a;
+  /* background:#63b47a; */
+  background:
+    linear-gradient(
+    rgba(244,98,58, 0.8),
+    rgba(244,98,58, 0.8));
 }
 
 * {
@@ -84,11 +88,11 @@ h5 > a:hover {
 }
 
 form {
-  background:#fff;
+  background:rgb(250, 249, 249);
   border-radius:6px;
   padding:20px;
   padding-top:30px;
-  width:300px;
+  width:500px;
   margin:50px auto;
   box-shadow:15px 15px 0px rgba(0,0,0,.1);
 }
