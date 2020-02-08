@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(255, 255, 255);
+    /* background:
+    linear-gradient(
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.8)); */
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #111;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+    width: 100%;
+    margin: 0;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: rgb(255, 255, 255);
+    background-color: #f2643a;
+    
+  }
+  
+  .active {
+    background-color: #f2643a;
+  }
